@@ -1,0 +1,260 @@
+body {font-size: 100%; height: 100%; padding: 0px; margin: 0px;	position: relative; min-width: 600px; overflow: hidden; min-width: 53em;}
+html {height: 100%; overflow:hidden; min-width: 53em;}
+* html body {height: 100%;}
+* {padding: 0em; margin: 0em;}
+
+.main_wrap {background: #4b4a50; min-width: 600px; padding: 0px 0px; overflow: hidden; position: absolute; *position:relative; height: 100%; font-family: Arial, Helvetica, sans-serif;}
+	.ie_main_wrap_strut {display: none;}
+.main_scroll_wrap { overflow: auto; height: 100%; position: relative; }
+
+.smtxt {font-size: 0.8em; line-height: 1.4em; font-family: Arial, Helvetica, sans-serif;}
+.vsmtxt {font-size: 0.7em; font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;}
+
+.nobr {white-space: nowrap;}
+
+a {color: #006699; border-color: #006699;}
+a:hover {color: #bb3300; border-color: #bb3300;}
+a:visited {color: #330099; border-color: #330099;}
+a.dashed {border-bottom-style: dashed; border-bottom-width: 1px; text-decoration: none;}
+
+div.strut {clear: both; height: 1px; font-size: 1px;}
+div.strut_l {clear: left; height: 1px; font-size: 1px;}
+
+/* Переопределяются данные стандартной шапки */
+.cross_site_taskbar .subsites {margin-bottom: 0em;}
+.cross_site_taskbar .subsites ul li a {color: #d2d2d4;}
+.cross_site_taskbar .subsites ul li a:hover {color: #FFFFFF;}
+.cross_site_taskbar .subsites .fade_wrap {width: 10px;}
+
+/* Основное поле конституции */
+.right_col_body,
+.left_col_body {width: 8%; height: 100%; background: #4b4a50; position: absolute; padding: 0em 1em; top: 0px;}
+.right_col_body {right: 0px; background: #4b4a50 url('../i/main_bub_lr_shadow.png') left repeat-y;}
+.left_col_body {left: 0px; background: #4b4a50 url('../i/main_bub_lr_shadow.png') right repeat-y;}
+.right_col_body .t{position: absolute; left: 0em; top: 0px; width: 100%; height: 60px; background: #4b4a50 url('../i/main_bub_btlr_shadow.png') top left no-repeat;}
+.left_col_body .t{position: absolute; right: 0em; top: 0px; width: 100%; height: 60px; background: #4b4a50 url('../i/main_bub_btlr_shadow.png') top right no-repeat;}
+.right_col_body .b{position: absolute; left: 0em; bottom: 0px; width: 100%; height: 30px; background: #4b4a50 url('../i/main_bub_btlr_shadow.png') bottom left no-repeat;}
+.left_col_body .b{position: absolute; right: 0em; bottom: 0px; width: 100%; height: 30px; background: #4b4a50 url('../i/main_bub_btlr_shadow.png') bottom right no-repeat;}
+
+.right_col_body .sources {color: #d2d2d4; top: 0em; padding-left: 0em; position: absolute; left: 1em; font: 0.8em Arial, Helvetica, sans-serif;}
+.right_col_body .sources a {color: #7cc2f2;}
+.right_col_body .sources a:hover {color: #FFFFFF;}
+.right_col_body .sources .book {position: relative; left: -9px; display: block; border: none; width: 67px; height: 73px; margin-bottom: 5px;}
+.right_col_body .sources .text {margin-top: 0.2em; width: 67px;}
+.right_col_body .sources .optical {margin-top: 0.5em; padding-right: 1em;}
+.right_col_body .sources abbr {letter-spacing: 0.1em;}
+.right_col_body .sources .text span,
+.right_col_body .sources .optical span {display: block; font-size: 0.8em;}
+
+.constitution_body {position: relative; background: #fffff8 url('../i/main_bub_b_shadow.png') bottom repeat-x; width: 88%; margin: 0em auto 0px auto; border-top: 2px solid #c73248; padding: 5em 0em 150px 0em; color: #333333; font-family: "Times New Roman", serif;}
+.constitution_body_wrap {position: relative;}
+.constitution_text_wrap {margin: 0em 15%;}
+.constitution_body .emblem {display: block; margin: auto;}
+.constitution_body .bm {position: absolute; top: -4em; display: block;}
+.constitution_body h1 {font: normal 2.3em Arial, Helvetica, sans-serif; display: block; margin: auto; display: block; width: 100%; margin: 0.5em auto 1em auto; text-align: center;}
+.constitution_body h2 {position: relative; font-weight: bolder; font-size: 1.5em; text-align: center; margin: 3em auto 0.2em auto;}
+.constitution_body h2.part {text-transform: uppercase; letter-spacing: 0.2em;  margin: 5em auto 0em auto;}
+.constitution_body h3 {font: bolder 1em  Arial, Helvetica, sans-serif; text-align: center; margin-top: 2.5em; position: relative;}
+.constitution_body p {text-indent: 0em; position: relative; margin-bottom: 0.7em;}
+.constitution_body p .ind {position: absolute; left: -1.5em; font-size: 0.8em; top: 0.17em;}
+.constitution_body p .sub_ind {left: -1.3em;}
+.constitution_body p .sub_ind.with-sup { top: 0; }
+.constitution_body .marker {display: block; text-decoration: none; cursor: pointer; text-align: left; color: #696871; font: normal 20px Arial, Helvetica, sans-serif; width: 30px; height: 30px; z-index: 300; position: absolute; left: -18%; top: -0.2em; text-align: center;}
+.constitution_body .marker div {width: 20px; height: 20px; margin: 5px; background: url('../i/bm_marker.png') center top no-repeat;}
+.constitution_body .bookmark {width: 30px; height: 30px; z-index: 350; position: absolute; left: -18%; top: -0.2em;}
+.constitution_body .bookmark div {width: 20px; height: 20px; margin: 5px; background: url('../i/bm_marker.png') center bottom no-repeat;}
+.constitution_body .constitution_body .intro p {text-indent: 0em;}
+.constitution_body .intro {width: 60%; margin: 2em auto 2em auto; font-size: 0.9em;}
+.constitution_body .intro p {text-indent: 0em; margin-bottom: 0.3em}
+.constitution_body .accepted {text-align: center; margin-bottom: 5em; font-size: 0.9em;}
+.constitution_body .caps {text-transform: uppercase; letter-spacing: 0.1em;}
+.constitution_body .additional_area {position: absolute; width: 15em; height: 100%; left: -17em; top: 0px; z-index: 250;}
+.constitution_body a.reference {color: #006699; text-decoration: none; border-bottom: 1px dashed #006699;}
+.constitution_body a:hover.reference {color: #bb3300; border-bottom: 1px dashed #bb3300;}
+.constitution_body a.reference sup { font-size: 0.6em; }
+.constitution_body .reference_block {width: 100%; font-size: 0.9em; background: #fbfbe8; padding: 0.5em 3em 1em 3em; margin: 0 -3em 1.5em -3em;}
+.constitution_body .ref_op a.reference {color: #000000; border-bottom: 1px dashed #000000;}
+.constitution_body .ref_op a:hover.reference {color: #bb3300; border-bottom: 1px dashed #bb3300;}
+
+div.footer {position: relative; z-index: 50; font-size: 0.7em; margin: 2em 20px 3em 20px; height: 3em; padding: 1em 0em 0em 0em; font-family: Arial, Helvetica, sans-serif; width: 77%; color: #D2D2D4;}
+	.footer .copy {}
+	.footer .copy a {margin-left: 2.3em; color: #7CC2F2;}
+	.footer .copy a:hover {color: #7CC2F2;}
+	.footer .copy .bureau {display: block; margin-top: 1.5em; margin-left: 0.6em;}
+
+/* Блок поиска */
+.cross_site_taskbar .right_block {display: none;}
+.search_block {color: #cccccc; display: none; position: absolute; top: 2.3em; right: 0em; z-index: 155; width: 8%;}
+	.search_block .wrap {position: absolute; width: 25em; left: -30em;}
+	.search_block .search_field {color: #cccccc; width: 15em; padding: 0em 0.3em; float: right; font-size: 0.75em; height: 1.5em; border: 1px solid #ababaa; border-color: #ababaa #ecebeb #ecebeb #ababaa;}
+	.search_block .next,
+	.search_block .previous {width: 20px; height: 1.5em; float: right; background: url('../i/search_arr.png') no-repeat;}
+	.search_block .next {background-position: -60px top;}
+	.search_block .previous {background-position: -40px top;}
+	.search_block .next_active {background-position: -100px top; cursor: pointer;}
+	.search_block .previous_active {background-position: 0px top; cursor: pointer;}
+	.search_block a:hover.next_active {background-position: -80px top;}
+	.search_block a:hover.previous_active {background-position: -20px top;}
+
+	.search_block .count {white-space: nowrap;  padding: 0em 5px; position: absolute; height: 1.3em; right: 15px; bottom: -1.4em; display: none;}
+	.search_block .count .results_count {color: #D2D2D4; position: relative; z-index: 3; font: 0.75em Arial, Helvetica, sans-serif; top: 0.4em;}
+	.search_block .count .bg {top: 0px; right: 0px; position: absolute; width: 100%; height: 100%; z-index: 2; background: #FFFFF8; opacity: 0.7;}
+.search_block_active {color: #000015;}
+.search_block_active .search_field {color: #000015;}
+
+
+
+/* Блок закладок */
+.bookmarks_block {position: absolute; z-index: 160; top: 5em; right: 1.7em; width: 8%; padding: 0em 1.25em; font: 0.8em Arial, Helvetica, sans-serif;}
+.bookmarks_block .wrap {position: relative; left: 0em; font-size: 1em;}
+.bookmarks_block .bookmark {color: #d2d2d4; position: relative; cursor: pointer; margin-bottom: 0.3em}
+.bookmarks_block .bookmark .delete {margin-left: 0.6em; bottom: 1px; position: absolute; color: #d2d2d4; display: none; border: none; font: normal 14px Arial, Helvetica, sans-serif; }
+.bookmarks_block .bookmark :hover.delete {color: #ffffff;}
+.bookmarks_block .active_bookmark .delete {display: inline;}
+/*.bookmarks_block :hover.bookmark .delete {display: block;} */
+.bookmarks_block .bookmark a {color: inherit; text-decoration: none; font: normal 1em "Times New Roman", serif; border-bottom: 1px dashed; border-bottom-color: inherit;}
+.bookmarks_block .bookmark a:hover {color: white; border-bottom-color: white;}
+.bookmarks_block .article {font: bolder 1em  Arial, Helvetica, sans-serif;}
+.bookmarks_block .chapter {font: bolder 1.5em "Times New Roman", serif;}
+.bookmarks_block .wo_chapter {margin-left: 1.08em;}
+.bookmarks_block .conclusion {margin-top: 0.5em;}
+.bookmarks_block .wo_chapter_conclusion {margin-left: 3.08em;}
+.bookmarks_block .conclusion .chapter {font: bolder 1em  Arial, Helvetica, sans-serif;}
+
+.bookmarks_block .delete_all {margin-top: 1.9em; display: none;}
+.bookmarks_block .delete_all a {color: #d2d2d4; font-size: 0.85em; font-family: Arial, Helvetica, sans-serif;}
+.bookmarks_block .delete_all a:hover {color: #ffffff;}
+.bookmarks_block :hover.bookmark {color: #FFFFFF;}
+
+/* Блок сносок */
+.reference_block {}
+.reference_block div {margin-bottom: 0.9em;}
+
+/* Блок нижнего меню */
+.bottom_menu_block {display: none; position: absolute; bottom: 0px; right: 5%; width: 21em;  z-index: 310;}
+.bottom_menu_block .tab {z-index: 300; float: left; width: 9em; background: #ffffff; position: relative; text-align: left;  font: 1em Arial, Helvetica, sans-serif;}
+.bottom_menu_block .first {margin-left: -1em; position: relative; left: -5px; padding-left: 8px; background: #ffffff;}
+.bottom_menu_block .active_tab {z-index: 300;}
+.bottom_menu_block .w_shadow {background: #ffffff url('../i/tab_shadow.png') top left no-repeat;}
+.bottom_menu_block .tab a {position: relative; z-index: 300; font: 0.8em Arial, Helvetica, sans-serif; border-bottom: 1px dashed #006699; color: #006699; text-decoration: none;}
+.bottom_menu_block .openned a {border-bottom: 1px dashed #000000; color: #000000;}
+.bottom_menu_block .tab a:hover {border-bottom: 1px dashed #bb3300; color: #bb3300;}
+
+.bottom_menu_block .top_shadow {z-index: 300;}
+.bottom_menu_block .tab .wrap {border: 1px solid white; padding: 0em 1em 0.5em 1em;}
+
+.bottom_menu_block .sub_wrap {padding: 0em 2em 2em 1em;}
+
+.bottom_menu_block .table_of_contents {}
+
+.bottom_menu_block_openned .tab .wrap {border-top-color: #cccccc;}
+.bottom_menu_block_openned .active_tab .wrap {border-top-color: #ffffff;}
+.bottom_menu_block_openned .shadow_block .hidden_shadow {display: none;}
+
+.bottom_menu_block_openned .table_of_contents_active .wrap {border-right-color: #cccccc;}
+.bottom_menu_block_openned .index_active .wrap {border-right-color: #cccccc; border-left-color: #cccccc;}
+.bottom_menu_block_openned .other_info_active .wrap {border-left-color: #cccccc;}
+
+.bottom_menu_block .table_of_contents_block {display: none; position: absolute; bottom: 2em; height: 0px; right: 0px; width: 30em; background: #ffffff; z-index: 210;}
+.bottom_menu_block .table_of_contents_block .wrap {position: relative; z-index: 70; overflow: auto;}
+.move_now .table_of_contents_block .wrap {overflow: hidden; }
+.bottom_menu_block .table_of_contents_block h2 {margin: 1.3em 0em 0.2em 0em; font: bolder 0.9em "Times New Roman", serif; text-transform: uppercase; letter-spacing: 0.15em;}
+.bottom_menu_block .table_of_contents_block ul {margin: 0em; padding: 0em;}
+.bottom_menu_block .table_of_contents_block ul li {margin-left: 4.5em; position: relative; list-style: none; font: 0.8em Arial, Helvetica, sans-serif; margin-bottom: 0.5em; line-height: 1.4em; }
+.bottom_menu_block .table_of_contents_block ul li b {text-align: right; font-weight: normal; position: absolute; left: -4.5em; width: 4em; }
+.bottom_menu_block .table_of_contents_block ul li a {text-decoration: none; border-bottom: 1px dashed #006699; color: #006699;}
+.bottom_menu_block .table_of_contents_block ul li a:hover {border-bottom-color: #bb3300; color: #bb3300;}
+.bottom_menu_block .table_of_contents_block ul li span.articles {font-size: 0.85em; margin-left: 1em; white-space: nowrap;}
+
+.bottom_menu_block .other_info_block {display: none; position: absolute; bottom: 2em; height: 0px; right: 0px; width: 30em; padding-top: 1em; background: #ffffff; z-index: 210;}
+.bottom_menu_block .other_info_block .wrap {position: relative; overflow: auto; z-index: 70; }
+.move_now .other_info_block .wrap {overflow: hidden; }
+.bottom_menu_block .other_info_block h3 {margin: 1.3em 0em 0.2em 0em; font: bolder 0.9em "Times New Roman", serif; text-transform: uppercase; letter-spacing: 0.15em;}
+.bottom_menu_block .other_info_block ul {margin: 0em; padding: 0em; font: 0.8em Arial, Helvetica, sans-serif; }
+.bottom_menu_block .other_info_block ul li {list-style: none; font: 0.9em Arial, Helvetica, sans-serif; line-height: 1.4em; margin-bottom: 0.7em;}
+#bmi {width: 12em;}
+
+.bottom_menu_block .index_block .capital:first-letter {font-size: 130%;}
+.bottom_menu_block .index_block {display: none; position: absolute; bottom: 2em; height: 0px; right: 0px; width: 49.1em; background: #ffffff; z-index: 210;}
+.bottom_menu_block .index_block .wrap {position: relative; z-index: 70; overflow: hidden;}
+.bottom_menu_block .index_block .index_text_wrap {overflow: auto; height: 100%; z-index: 100; position: relative;}
+.bottom_menu_block .index_block .col {float: left; width: 10em; padding: 0em 1em 1em 1em; font-family: Arial, Helvetica, sans-serif;}
+.bottom_menu_block .index_block .col h3 {font-size: 0.8em; display: none;}
+.bottom_menu_block .index_block .col .item {padding-bottom: 6px; overflow: hidden;	}
+.bottom_menu_block .index_block .col .first_item {margin-top: 1em;}
+.bottom_menu_block .index_block .col .term {font-size: 0.75em; display: block;}
+.bottom_menu_block .index_block .col .term b {font-weight: normal; font-size: 130%;}
+.bottom_menu_block .index_block .col .term a {border-bottom: 1px dashed #006699; color: #006699; text-decoration: none;}
+
+.bottom_menu_block .index_block .col .term a:hover {border-bottom: 1px dashed #bb3300; color: #bb3300;}
+.bottom_menu_block .index_block .col .openned a {border-bottom-color: #000000; color: #000000;}
+.bottom_menu_block .index_block .col .pointer {display: none; padding-left: 1em; font-size: 0.7em; margin-bottom: 0.7em; line-height: 1.3em;}
+.bottom_menu_block .index_block .col .pointer a {text-decoration: none; color: #000000; border-bottom: 1px dashed #666666;}
+.bottom_menu_block .index_block .col .pointer a:hover {color: #bb3300; border-bottom: 1px dashed #bb3300;}
+
+ins {background: #fbfac6; margin: 0em -0.1em; padding: 0.1em 0.1em; text-decoration: none;}
+ins.active {background: #f8e961;}
+
+/* Тенюшки */
+.shadow_block {width: 100%; height: 100%; position: absolute; z-index: 50; top: 0px; left: 0px;}
+.shadow_block div {position: relative; overflow: hidden;}
+.shadow_block .sc {width: 1201px; height: 1205px; position: absolute; background: url('../i/bub.png'); overflow: hidden;}
+.shadow_block .t,
+.shadow_block .b {height: 23px; width: 100%; left: 0px; position: absolute; overflow: hidden;}
+.shadow_block .l,
+.shadow_block .r {width: 19px; height: 100%; top: 0px; position: absolute; overflow: hidden;}
+.shadow_block .c {width: 19px; height: 19px; position: absolute;}
+.shadow_block .t {top: -19px;}
+.shadow_block .b {bottom: -23px;}
+.shadow_block .l {left: -19px;}
+.shadow_block .r {right: -19px;}
+
+.shadow_block .tr {right: -19px; top: -19px;}
+.shadow_block .br {right: -19px; bottom: -23px; height: 23px;}
+.shadow_block .tl {left: -19px; top: -19px;}
+.shadow_block .bl {left: -19px; bottom: -23px; height: 23px;}
+
+.shadow_block .r .sc {right: 0px; top: -19px;}
+.shadow_block .l .sc {left: 0px; top: -19px;}
+.shadow_block .t .sc {left: -19px; top: 0px;}
+.shadow_block .b .sc {left: -19px; bottom: 0px;}
+.shadow_block .tr .sc,
+.shadow_block .br .sc {right: 0px;}
+.shadow_block .tl .sc,
+.shadow_block .bl .sc {left: 0px;}
+.shadow_block .bl .sc,
+.shadow_block .br .sc{bottom: 0px;}
+.shadow_block .rounded .sc{background: url('../i/bub_bl.png') left bottom;}
+
+.infoscroller_container {position: absolute; top: 0px; right: 20px; width: 10px; height: 90%; margin-top: 25px; }
+.infoscroller_container a {display: block; position: absolute; z-index:200; width: 5px; height: 3px; right: 0px; border-top: 1px solid #dece5f;}
+
+/* Секция типографа */
+span.sbrace {margin-right: 0.25em}
+span.hbrace {margin-left: -0.25em}
+
+span.slaquo {margin-right: 0.44em}
+span.hlaquo {margin-left: -0.44em}
+span.slaquo-s {margin-right: 0.23em}
+span.hlaquo-s {margin-left: -0.23em}
+span.slaquo-b {margin-left: 0.85em}
+span.hlaquo-b {margin-left: -0.85em}
+
+span.sbdquo {margin-right: 0.4em}
+span.hbdquo {margin-left: -0.4em}
+span.sbdquo-s {margin-right: 0.35em}
+span.sbdquo-s {margin-left: -0.35em}
+
+#info {display: none;}
+
+* html .cross_site_taskbar .subsites .fade {display: none;}
+
+
+.lang { list-style: none; position: absolute; top: -27px; right: 100px; font-size: 75%; text-transform: uppercase; font-family: Arial, Helvetica, sans-serif}
+.lang .active { background-color: #efdea4; }
+.lang span { padding: 3px 1px; display: block !important; display: inline-block; }
+.lang li { display: inline-block; }
+.lang a { display: block !important; display: inline; color: #fff; }
+.lang a:hover { text-decoration: none; }
+
+

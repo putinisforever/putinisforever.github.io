@@ -1,0 +1,10 @@
+body, html, #main_scroll_wrap, .main_wrap { position:static; height:auto; overflow:visible; width:100%; }
+
+#cross_site_taskbar, #search_block, #bottom_menu_block, #sources, #bookmarks_block { display:none; }
+#constitution_body { border:0; padding:0; }
+
+#search_block * { display:none; }
+#bottom_menu_block * { display:none; }
+.lang { display: none; }
+
+a { color:#000; border:0; }

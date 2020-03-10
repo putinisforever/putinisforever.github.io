@@ -1,0 +1,28 @@
+@charset "utf-8";
+/* CSS Document */
+
+.cross_site_taskbar { position: relative; //zoom: 1; }
+.cross_site_taskbar .left_block { float: left; display: inline; width: 25%; padding-top: 5px; }
+.cross_site_taskbar .right_block { float: right; display: inline; width: 20%; min-width: 13em; position: relative; }
+.cross_site_taskbar .search_form { width: 100%; position: relative; margin-top: 5px; }
+.cross_site_taskbar .search_form .search_field_wrap input { position: absolute; right: 2em; top: 0; width: 90%; font-family: Arial, Helvetica, sans-serif; padding: 0 .1em; }
+.cross_site_taskbar .search_form input.empty { color: #aaa; }
+.cross_site_taskbar .search_form input.search_button { position: absolute; right: 0; top: 0em; width: 2em; height: 1.5em; border: none; background: url('../i/search_arrow.png') center center no-repeat; padding: 0; }
+
+.cross_site_taskbar .subsites { float: left; display: inline; width: 50%; margin-bottom: .6em; position: relative; }
+.cross_site_taskbar .subsites .fade_wrap { height: 6px; width: 451px; position: absolute; left: 50%; bottom: 0; }
+.cross_site_taskbar .subsites .fade_wrap .fade { background: url('../i/subsites_fade.png') no-repeat; height: 6px; width: 521px; position: absolute; left: -260px; }
+.cross_site_taskbar .subsites ul { list-style: none; font-size: 69%; text-align: center; white-space: nowrap; }
+.cross_site_taskbar .subsites ul li { display: inline-block; display: -moz-inline-stack; //display: inline; //zoom: 1; text-transform: uppercase; padding: 6px .6em .8em; margin: 0 -.2em; }
+
+/* Неутверждённые изменения из-за добавления двух пунктов в меню */
+.cross_site_taskbar .subsites ul { font-size: 56%; letter-spacing: 1px; }
+.cross_site_taskbar .subsites ul li { padding-top: .8em; padding-bottom: .9em; }
+
+
+
+.cross_site_taskbar .subsites ul li.first { margin: 0 -.1em 0 0; }
+.cross_site_taskbar .subsites ul li.last { margin: 0 0 0 -.1em; }
+.cross_site_taskbar .subsites ul li.active { background: #edeeec; }
+.cross_site_taskbar .subsites ul li a { color: #000; }
+.cross_site_taskbar .subsites ul li a:hover { color: #b30; }

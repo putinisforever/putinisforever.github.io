@@ -1,0 +1,162 @@
+.t-overlay1  {
+    height:100%;
+    left:0;
+    position:absolute;
+    top:0;
+    width:100%;
+    z-index:3000;
+}
+
+.t-overlay {
+    background:url("http://letters.kremlin.ru/static/img/dot72.png") repeat fixed 0 0 transparent;
+    height:100%;
+    left:0;
+    position:fixed;
+    top:0;
+    width:100%;
+    z-index:3000;
+}
+
+* html div.overlay {
+    position: absolute;
+    height: expression(document.body.scrollHeight > document.body.offsetHeight ? document.body.scrollHeight : document.body.offsetHeight + "px");
+}
+
+.t-in  {
+left:50%;
+position:fixed;
+top:50%;
+}
+
+.t-in1  {
+left:-339px;
+position:absolute;
+text-align:left;
+top:-200px;
+width:678px;
+}
+
+.tt-top, .tt-bot {
+background:url("http://letters.kremlin.ru/static/img/telegramm/tt-top.png") no-repeat scroll 0 0 transparent;
+height:23px;
+}
+
+.tt-str  {
+background:url("http://letters.kremlin.ru/static/img/telegramm/tt-str.png") repeat-y scroll 0 0 transparent;
+padding:0 23px;
+}
+
+.tt-bot  {
+    background:url("http://letters.kremlin.ru/static/img/telegramm/tt-bot.png") no-repeat scroll 0 0 transparent;
+}
+
+.spasibo h3 {
+    background:url("http://letters.kremlin.ru/static/img/letter/spasibo.png") no-repeat scroll 0 0 transparent;
+    color:#FFFFFF;
+    font:bold 16px/34px Arial,sans-serif;
+    height:34px;
+    padding-left:10px;
+    text-shadow:0 -1px 0 #054871;
+}
+
+.attention h3 {
+    background:url("http://letters.kremlin.ru/static/img/telegramm/att.png") no-repeat scroll 0 0 transparent;
+    text-shadow:0 -1px 0 #5B2727;
+}
+
+
+
+.tt-inner  {
+    background:url("http://letters.kremlin.ru/static/img/telegramm/tt-gr.png") repeat-x scroll 0 100% transparent;
+    font:13px/1.3 Arial,sans-serif;
+}
+
+.attention .tt-inner1 {
+    background-image:url("http://letters.kremlin.ru/static/img/telegramm/gerb1.png");
+    padding-top:20px;
+}
+
+.spasibo .tt-inner1 {
+    padding:24px 4px 24px 77px;
+}
+
+.tt-inner1 {
+    background:url("http://letters.kremlin.ru/static/img/telegramm/gerb.png") no-repeat scroll 12px 20px transparent;
+    padding:7px 10px 0 77px;
+}
+
+.spasibo .tt-inner p {
+    text-shadow:none;
+}
+
+.attention .tt-act {
+    display:inline;
+    float:right;
+    margin-right:70px;
+    padding-top:12px;
+}
+
+.tt-inner .tt-act {
+    margin-right:0;
+}
+
+.tt-inner p {
+    margin-bottom:1em;
+    margin-right:30px;
+    text-shadow:0 1px 0 #FFFFFF;
+}
+
+.tt-act .tt-close {
+    background:url("http://letters.kremlin.ru/static/img/telegramm/close.png") no-repeat scroll 100% 50% transparent;
+    padding-left:5px;
+    padding-right:19px;
+    color: black !important;
+}
+
+.tt-act a, .tt-act b {
+    display:inline;
+    float:right;
+}
+
+.tt-date, .tt-act a {
+    color:#848484;
+    font:11px/1.2 Tahoma,sans-serif;
+    outline:medium none;
+    text-decoration:none;
+}
+
+.attention h5 {
+margin-bottom:20px;
+}
+
+.tt-inner h2, .tt-inner h5 {
+font:bold 16px/1.3 Arial,sans-serif;
+padding-top:10px;
+text-shadow:0 1px 0 #FFFFFF;
+}
+
+.spasibo .tt-inner p {
+text-shadow:none;
+}
+
+.tt-inner p {
+margin-bottom:1em;
+margin-right:30px;
+text-shadow:0 1px 0 #FFFFFF;
+}
+
+.extlink  {
+    background:url("http://letters.kremlin.ru/static/img/letter/glow.png") no-repeat scroll 0 0 transparent;
+    font:bold 16px/60px Arial,sans-serif;
+    height:60px;
+    margin:20px 0;
+    overflow:hidden;
+    padding-left:20px;
+    padding-right:20px;
+    width:440px;
+}
+
+.extlink a {
+    color:#FFFFFF !important;
+    text-decoration:underline;
+}
